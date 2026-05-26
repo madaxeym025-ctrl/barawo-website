@@ -1,0 +1,19 @@
+.cont{
+    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-rows: repeat(2 1fr); */
+    
+  
+    
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    
+    
+}
+.box .box1 {
+    grid-row: 1 / span 3;
+}
